@@ -1,6 +1,6 @@
 # rsschool-cv
 ***
-## Nikita Sobolev
+## Nikita Sobolev (senior developer of web interfaces in reg.ru)
 ****
 ### Contacts:
 - Phone: +7-922-901-31-33
