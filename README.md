@@ -8,3 +8,8 @@
 - GitHub: [nsobolev](https://github.com/nsobolev/)
 - Telegram: [@nikitasobolev](https://t.me/@nikitasobolev)
 - Discord: [n.sobolev](https://discordapp.com/users/500927356785917954)
+
+### About myself
+Frontend engineer with experience in developing of dynamic websites built with latest JavaScript ecosystem tools. I have worked in companies such as TradeSoft, BidFox. I am currently working for a company Reg.Ru. I hold the position of senior developer of web interfaces. I like to learn new things in frontend development.
+
+Nice to meet you.
