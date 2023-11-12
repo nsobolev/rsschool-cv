@@ -2,7 +2,7 @@
 ***
 ## Nikita Sobolev
 ****
-### Contacts:
+### Contacts
 - Email: n.sobolev94@gmail.com
 - GitHub: [nsobolev](https://github.com/nsobolev/)
 - Telegram: [@nikitasobolev](https://t.me/@nikitasobolev)
