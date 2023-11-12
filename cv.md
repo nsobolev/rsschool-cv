@@ -3,8 +3,12 @@
 ## Nikita Sobolev
 ****
 ### Contacts:
-- Phone: +7-922-901-31-33
 - Email: n.sobolev94@gmail.com
 - GitHub: [nsobolev](https://github.com/nsobolev/)
 - Telegram: [@nikitasobolev](https://t.me/@nikitasobolev)
 - Discord: [n.sobolev](https://discordapp.com/users/500927356785917954)
+
+### About myself
+Frontend engineer with experience in developing of dynamic websites built with latest JavaScript ecosystem tools. I have worked in companies such as TradeSoft, BidFox. I like to learn new things in frontend development.
+
+Nice to meet you.
