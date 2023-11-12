@@ -52,3 +52,7 @@ function initDsPopover() {
 - React + Redux - Professional Development (Juriy Bura)
 - Competent feedback (Education Reg.ru)
 - and other
+
+### Languages
+- Russian — Native
+- English — A1 — Elementary
