@@ -19,3 +19,28 @@ Nice to meet you.
 - CSS: BEM, Styled-components, Preprocessors (Less/SASS), Bootstrap, Mobile-first.
 - Code style: StyleLint/ESLint.
 - Other: Git, Webpack, Gulp, SVG, Storybook.
+
+### Code example
+The tooltip initialization function. I was making a wrapper over the plugin `tippy.js`.
+```
+function initDsPopover() {
+    const popoverElements = document.querySelectorAll( DS_POPOVER_SELECTOR );
+    if ( popoverElements.length ) {
+        for ( const popoverElement of popoverElements ) {
+            try {
+                const content = getPopoverContent( popoverElement );
+                const placement = getPopoverPlacement( popoverElement );
+                addPopover( popoverElement, content, placement );
+            }
+            catch ( error ) {
+                console.error( `${ DS_POPOVER_PREFIX_MESSAGE } - ${error.message}` );
+            }
+        }
+    }
+    else {
+        const errorMessage = 'Вы забыли указать data-атрибут для ds-popover';
+        const attributeName = DS_POPOVER_SELECTOR.slice( 1, -1 );
+        console.warn( `${ DS_POPOVER_PREFIX_MESSAGE } - ${ errorMessage } - ${ attributeName }.` );
+    }
+}
+```
