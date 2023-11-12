@@ -44,3 +44,11 @@ function initDsPopover() {
     }
 }
 ```
+### Courses
+- Frontend Development on React (Ivan Kleshnin)
+- HTML and CSS. Professional website layout (HTMLAcademy)
+- HTML and CSS. Adaptive layout and automation (HTMLAcademy)
+- JavaScript. Professional development of web interfaces (HTMLAcademy)
+- React + Redux - Professional Development (Juriy Bura)
+- Competent feedback (Education Reg.ru)
+- and other
