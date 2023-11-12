@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Sobolev CV</title>
+</head>
+<body>
+    <main>
+        <h1>Nikita Sobolev CV</h1>
+
+        <section>
+            <h2>Contacts</h2>
+            <ul>
+                <li>Email: n.sobolev94@gmail.com</li>
+                <li>GitHub: [nsobolev](https://github.com/nsobolev/)</li>
+                <li>Telegram: [@nikitasobolev](https://t.me/@nikitasobolev)</li>
+                <li>Discord: [n.sobolev](https://discordapp.com/users/500927356785917954)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>About myself</h2>
+            <p>
+                Frontend engineer with experience in developing of dynamic websites built with latest JavaScript ecosystem tools. I have worked in companies such as TradeSoft, BidFox. I like to learn new things in frontend development.
+            </p>
+            <p>Nice to meet you.</p>
+        </section>
+
+        <section>
+            <h2>My skills</h2>
+            <ul>
+                <li>Responsive HTML5, CSS3 from PSD/Sketch/any other format including statics.</li>
+                <li>JavaScript (ES2015/ESNext), React, Redux, TypeScript, Mobx.</li>
+                <li>CSS: BEM, Styled-components, Preprocessors (Less/SASS), Bootstrap, Mobile-first.</li>
+                <li>Code style: StyleLint/ESLint.</li>
+                <li>Other: Git, Webpack, Gulp, SVG, Storybook.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Code example</h2>
+            <p>The tooltip initialization function. I was making a wrapper over the plugin <i>tippy.js</i>.</p>
+            <pre>
+                <code>
+                    function initDsPopover() {
+                        const popoverElements = document.querySelectorAll( DS_POPOVER_SELECTOR );
+                        if ( popoverElements.length ) {
+                            for ( const popoverElement of popoverElements ) {
+                                try {
+                                    const content = getPopoverContent( popoverElement );
+                                    const placement = getPopoverPlacement( popoverElement );
+                                    addPopover( popoverElement, content, placement );
+                                }
+                                catch ( error ) {
+                                    console.error( `${ DS_POPOVER_PREFIX_MESSAGE } - ${error.message}` );
+                                }
+                            }
+                        }
+                        else {
+                            const errorMessage = 'Вы забыли указать data-атрибут для ds-popover';
+                            const attributeName = DS_POPOVER_SELECTOR.slice( 1, -1 );
+                            console.warn( `${ DS_POPOVER_PREFIX_MESSAGE } - ${ errorMessage } - ${ attributeName }.` );
+                        }
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <a href="https://auditor.hate.agency/">Hate Auditor</a> - React, Mobx, Less.
+                </li>
+                <li>
+                    <a href="https://bidfox.ru/">Bidfox</a> - React, Mobx, Typescript, Styled-Components.
+                </li>
+                <li>
+                    <a href="https://base.cutsew.ru/">Base CutSew</a> - NextJS, Redux, Typescript, UI Library.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Courses</h2>
+            <ul>
+                <li>Frontend Development on React (Ivan Kleshnin)</li>
+                <li>HTML and CSS. Professional website layout (HTMLAcademy)</li>
+                <li>HTML and CSS. Adaptive layout and automation (HTMLAcademy)</li>
+                <li>JavaScript. Professional development of web interfaces (HTMLAcademy)</li>
+                <li>React + Redux - Professional Development (Juriy Bura)</li>
+                <li>Competent feedback (Education Reg.ru)</li>
+                <li>and other</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian — Native</li>
+                <li>English — A1 — Elementary</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
