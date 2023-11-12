@@ -44,6 +44,12 @@ function initDsPopover() {
     }
 }
 ```
+
+### Projects
+- [Hate Auditor](https://auditor.hate.agency/) - React, Mobx, Less.
+- [Bidfox](https://bidfox.ru/) - React, Mobx, Typescript, Styled-Components.
+- [Base CutSew](https://base.cutsew.ru/) - NextJS, Redux, Typescript, UI Library.
+
 ### Courses
 - Frontend Development on React (Ivan Kleshnin)
 - HTML and CSS. Professional website layout (HTMLAcademy)
